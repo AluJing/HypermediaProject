@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<?php
+if( $_REQUEST["categoria"] ) {
+
+   $name = $_REQUEST['categoria'];
+ 
+
+   //connessione al db
+   $con = mysqli_connect('localhost','jingalmera','','my_jingalmera');
+if (!$con) {
+    die('Could not connect: ' . mysqli_error($con));
+}
+//interrogazione db
+mysqli_select_db($con,"my_jingalmera");
+$sql="SELECT * FROM `Smartphone`";
+$result = mysqli_query($con,$sql);
+
+//stampo risultati
+echo "";
+while($row = mysqli_fetch_array($result)) {
+
+    echo "<div class='col-md-3 col-sm-6 col-xs-12'>
+            <div class='single-offer'>
+                <div class='device-img'>
+                   <img src='" . $row['Immagine'] . "' alt='" . $row['Nome'] . "'>
+                </div>
+                <div class='device-name'>
+                   <p>" . $row['Nome'] . "</p>
+                   <span>" . $row['Prezzo'] . "</span>
+                </div>
+                <div class='offer-link'>
+                   <a href='#'>Dettagli</a>
+                </div>
+            </div>
+          </div>";
+}
+mysqli_close($con);
+
+}
+
+?>
+</body>
+</html>
