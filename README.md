@@ -36,12 +36,15 @@ Altre informazioni:
 - Per il collegamento tra "Device" e "Assistance" abbiamo solamente i dispositivi 'LG G4' e 'Samsung Galaxy S6' che sono collegati con il servizio 'SOSsmartphone' di Assistenza (e viceversa).
 
 
-- Per il collegamento tra "SL" e "Device" c'è soltanto la pagina Salute e Benessere che presenta il dispostivo Samsung Gear S con il relativo link per la pagina con i dettagli di questo item. Viceversa, dalla pagina di specifiche di Samsung Gear S è possibile andare alla pagina Salute e Benessere di SmartLife
+- Per il collegamento tra "SL" e "Device" c'è soltanto la pagina Salute e Benessere che presenta il dispostivo Samsung Gear S con il relativo link per la pagina con i dettagli di questo item. Viceversa, dalla pagina di specifiche di Samsung Gear S è possibile andare alla pagina Salute e Benessere di SmartLife.
 
 
 - Per il single topic "WHO WE ARE" abbiamo optato di fare tutto in modo statico dovuto alla mancanza di tempo.
 
 
-- Abbiamo creato le pagine php in modo che non siano vulnerabili al SQL injection
+- Abbiamo creato le pagine php in modo che non siano vulnerabili al SQL injection.
+
+
+- Abbiamo aggiunto la pagina Contatti per richiedere un'informazione generica, rispetto al P-IDM di partenza.
 
 
