@@ -1,6 +1,6 @@
 # HypermediaProject - TIM website
 
-Politecnico di Milano AA.2015-2016
+Politecnico di Milano AA.2015-2016 \n
 Autori: Davide Gallinella - Qi Jing - Fabio Meraviglia
 
 -------------------------------------------
