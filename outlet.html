@@ -8,7 +8,7 @@
     <title>TIM e Telecom in un unico portale | TIM</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <!-- Addons -->
     <!-- Font Awesome -->
     <link href="assets/css/font-awesome.css" rel="stylesheet">
@@ -92,11 +92,11 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
             <li><a href="index.html">Home</a></li>
-            <li><a href="outlet.html">Offerte</a></li>
+            <li class="active"><a href="outlet.html">Offerte</a></li>
             <li><a href="device-categories.html">Prodotti</a></li>
             <li><a href="smartlife-categories.html">SmartLife</a></li>
             <li><a href="assistant-services.html">Assistenza</a></li>
-            <li class="dropdown active">
+            <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Chi siamo <span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="innovation-home.html">Innovazioni</a></li>
@@ -110,7 +110,7 @@
       </div>
     </nav>
   </section>
-  <!-- END MENU -->
+  <!-- END MENU --> 
   
   <!-- Start single page header -->
   <section id="single-page-header">
@@ -119,15 +119,16 @@
         <div class="row">
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="single-page-header-left">
-              <h2>Progetti</h2>
+              <h2>Outlet</h2>
+              <p>Il meglio a prezzo scontato</p>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="single-page-header-right">
               <ol class="breadcrumb">
-                <li><a href="innovation-home.html">Innovazioni</a></li>
-                <li class="active">Progetti</li>
-                <li><a href="testimonial.html">Testimonial</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="device-categories.html">Prodotti</a></li>
+                <li class="active">Outlet</li>
               </ol>
             </div>
           </div>
@@ -137,68 +138,28 @@
   </section>
   <!-- End single page header -->
   
-  <!-- Start blog archive -->
-  <section id="blog-archive">
+  <!-- Start Popular offers -->
+  <section id="offers">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="blog-archive-area">
+          <div class="title-area">
+            <h2 class="title">Discount</h2>
+		  </div>
+		</div>
+        <div class="col-md-12">
+          <div class="offers-content">
             <div class="row">
-              <div class="col-md-2"></div>
-              <div class="col-md-8">
-                <div class="blog-archive-left">
-                  <!-- Start blog news single -->
-                  <article class="blog-news-single">
-                    <div class="blog-news-img">
-                      <img src="assets/images/leaderTLC.png" alt="TIM leader nel settore TLC">
-                    </div>
-                    <div class="blog-news-title">
-                      <h2>Telecom Italia leader del settore TLC</h2>
-                    </div>
-                    <div class="blog-news-details blog-single-details">
-                      <p>Telecom Italia &egrave leader assoluta in Europa nel settore TLC per la comunicazione corporate digitale nella classifica Webranking Europe 2015 realizzata da Comprend, in collaborazione con Lundquist.</p>
-
-                      <p>
-                         La ricerca, alla sua diciannovesima edizione, ha analizzato e premiato la qualit&agrave della comunicazione finanziaria e istituzionale online - su web e social media - attraverso 100 criteri oggettivi relativi ad aspetti di contenuto e di tecnologia,
-                         aggiornati ogni anno sulla base delle esigenze di stakeholder (analisti, investitori, giornalisti, responsabili della comunicazione) provenienti da tutta Europa.
-                      </p>
-
-                      <p>
-                         Telecom Italia &egrave stata apprezzata per le nuove modalit&agrave di presentazione dei contenuti, attraverso un uso pi&ugrave esteso di infografiche e video a supporto della strategia aziendale, per lo storytelling rivolto ai professionisti e al pubblico pi&ugrave ampio, e per la comunicazione integrata tra sito istituzionale e social media.
-                         Telecom Italia &egrave stata inoltre riconosciuta come la prima azienda nel nostro Paese a superare il bilancio interattivo come replica del bilancio annuale per creare una versione digitale di tipo narrativo.
-                      </p>
-
-                      <div class="blog-single-bottom">
-                        <div class="row">
-                          <div class="col-md-12">
-                            <div class="blog-single-social">
-                              <a href="http://www.facebook.com/share.php?u=http://jingalmera.altervista.org/website/project-LeaderTLC.html"><i class="fa fa-facebook"></i></a>
-                              <a href="http://twitter.com/home?status=http://jingalmera.altervista.org/website/project-LeaderTLC.html"><i class="fa fa-twitter"></i></a>
-                              <a href="https://plus.google.com/share?url=http://jingalmera.altervista.org/website/project-LeaderTLC.html"><i class="fa fa-google-plus"></i></a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </article>
-                  <!-- Start blog navigation -->
-                  <div class="blog-navigation-area">
-                    <div class="blog-navigation-next">
-                      <a href="project-TIMLavoro.html">
-                        <h5>TIM nel mondo del lavoro</h5>
-                        <span>Articolo Prossimo</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              <!-- Start single device item through database -->
+              <div id="devicesElement"><b>Output overwritten here</b></div>
+              <!-- End single offer -->
+			</div>
           </div>
         </div>
       </div>
-    </div>  
+    </div>
   </section>
-  <!-- End blog archive -->
+  <!-- End Popular offers -->
 
   <!-- Start footer -->
   <footer id="footer">
@@ -231,8 +192,10 @@
   <script type="text/javascript" src="assets/js/slick.js"></script>    
   <!-- Wow animation -->
   <script type="text/javascript" src="assets/js/wow.js"></script> 
+  <!-- database fetch -->
+  <script type="text/javascript" src="assets/js/outlet-fetch.js"></script>
   <!-- Custom js -->
   <script type="text/javascript" src="assets/js/custom.js"></script>
-    
+  
   </body>
 </html>

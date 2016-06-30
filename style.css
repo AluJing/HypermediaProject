@@ -1,37 +1,21 @@
 
-/*
-Template Name: Intensely
-Author: MarkUps
-Author URI: http://www.markups.io/
-Description: Intensely - Multipurpose Business HTML5 Template.
-Version: 1.0
-Tags: light, white, single page, multipurpose, multi page, custom-colors, Bootstrap, responsive, html5, css3
-*/
-
-
 /* Table of Content
 ==================================================
 #BASIC TYPOGRAPHY
 #HEADER	
 #MENU 
 #SLIDER
-#FEATURES
-#ABOUT
-#COUNTER 
-#SERVICE
-#PRICING TABLE
+#OFFERS
+#ASSISTANT SERVICES - SMARTLIFE
+#DEVICE
 #TESTIMONIAL
-#PRICING TABLE
-#OUR TEAM
-#TESTIMONIAL
-#CLIENTS BRAND
 #LATEST NEWS
-#SUBSCRIBE US
 #FOOTER
-#PORTFOLIO PAGE
-#BLOG PAGE
-#CONTACT PAGE
-#ERROR PAGE
+#SINGLE PAGE
+#BLOG - WHO WE ARE
+#CONTACT 
+#DEVICE DETAIL TAB
+#PRICING TABLE
 #RESPONSIVE STYLE
 */
 
@@ -157,40 +141,6 @@ img{
 	padding: 20px 0;	
 }
 
-#search{
-	margin: 0 auto;
-	width: 70%;
-}
-
-#search input {
-  background-color: inherit;
-  border: medium none;
-  color: #fff;
-  float: left;
-  height: 100%;
-  text-align: center;
-  width: 95%;
-}
-
-#search button[type="submit"] {
-  background: inherit;
-  border: medium none;
-  color: #fff;
-  height: 20px;
-  width: 30px;
-}
-
-#search-icon { 
-  font-size: 20px;
-  height: 35px;
-  line-height: 35px;
-  position: absolute;
-  right: 8%;
-  text-align: center;
-  top: 20px;
-  width: 35px;
-}
-
 .header-bottom{
 	background-color: rgba(0, 0, 0, 0.02);
 	border-bottom: 1px solid #e4e4e4;
@@ -239,86 +189,6 @@ img{
 	margin-right: 5px; 
 }
 
-.header-login{
-	display: inline;
-	float: left;
-	text-align: right;
-	width: 100%;
-}
-
-.login {
-  border-left: 1px solid #e4e4e4;
-  border-right: 1px solid #e4e4e4;
-  color: #949494;
-  display: inline-block;
-  font-size: 14px;
-  line-height: 20px;
-  padding: 10px 15px;
-  text-decoration: none;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.login:hover,
-.login:focus{	
-	color: #fff;
-	text-decoration: none;
-	outline: none;
-}
-
-/*login modal window*/
-
-#login-form {
-  background-color: rgba(0, 0, 0, 0.7);  
-}
-
-#login-form .modal-dialog {
-  margin: 130px auto;
-  width: 400px;
-}
-
-#login-content {
-  border-radius: 0;
-}
-
-#login-content .modal-title {  
-  font-size: 20px;
-}
-
-#login-content .modal-title i{
-  margin-right: 5px;
-}
-
-#login-content .form-group input{
-  height: 35px;
-  border-radius: 0;
-}
-
-#login-content .form-control:focus { 
-  box-shadow: none;  
-}
-
-.loginbox label {
-  float: left;
-  width: 100%;
-}
-
-.loginbox label input{
-  float: left;
-  margin-right: 5px;
-}
-
-.loginbox label span {
-  font-weight: normal;
-}
-
-.loginbox .signin-btn { 
-  border-radius: 0;
-  margin-top: 10px;
-  color: #fff;
-}
-
 .footer-box {
   text-align: left;
   font-size: 15px;
@@ -326,42 +196,6 @@ img{
 
 .footer-box a:hover,
 .footer-box a:focus{  
-  text-decoration: none;
-  outline: none;
-}
-
-#signup-content {
-  display: none;
-}
-
-#signup-content {
-  border-radius: 0;
-}
-
-#signup-content .modal-title {  
-  font-size: 20px;
-}
-
-#signup-content .modal-title i{
-  margin-right: 5px;
-}
-
-#signup-content .form-group input{
-  height: 35px;
-  border-radius: 0;
-}
-
-#signup-content .form-control:focus {  
-  box-shadow: none;  
-}
-
-.signupbox span {
-  display: inline-block;
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-
-.signupbox span a:hover{
   text-decoration: none;
   outline: none;
 }
@@ -734,7 +568,7 @@ img{
 
 
 /*--------------------*/
-/* SERVIZI/FEATURES */
+/* SERVIZI */
 /*--------------------*/
 
 #single-page-service-header{
@@ -1188,135 +1022,10 @@ img{
   text-decoration: underline;
 }
 
-/*--------------------*/
-/* PORTFOLIO PAGE */
-/*--------------------*/
 
-
-#portfolio{
-  background-color: #fff;
-  display: inline;
-  float: left;
-  width: 100%;
-  min-height: 400px;
-  padding: 70px 0;
-}
-
-.portfolio-area{
-  display: inline;
-  float: left;
-  width: 100%;
-}
-
-.portfolio-menu{
-  display: inline;
-  float: left;
-  text-align: center;
-  padding: 0 20px;
-  width: 100%;
-}
-
-.portfolio-menu ul li {
-  border: 1px solid #ccc;
-  cursor: pointer;
-  display: inline-block;
-  margin: 0 5px;
-  padding: 6px 15px;
-  text-transform: uppercase;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.portfolio-menu ul li:hover,
-.portfolio-menu ul li.active{  
-  color: #fff;
-}
-
-#mixit-container .mix {
-  display: none;
-}
-
-.portfolio-container {
-  display: inline;
-  float: left;
-  margin-top: 50px;
-  width: 100%;
-}
-
-.single-portfolio{
-  background-color: #ccc;
-  display: inline;
-  float: left;
-  width: 25%;  
-}
-
-.single-item>img {
-  height: 220px;
-  width: 100%;
-}
-
-.single-item{
-  display: inline;
-  float: left;
-  position: relative;
-  width: 100%;
-}
-
-.single-item-content {  
-  color: #fff;  
-  height: 100%;
-  left: 0;
-  opacity: 0;
-  padding-top: 55px;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 100%;
- -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  
-  -webkit-transform: scale(0);
-  -moz-transform: scale(0);
-  -o-transform: scale(0);
-  -ms-transform: scale(0);
-  transform: scale(0);
-  
-  -webkit-backface-visibility: hidden; /*for a smooth font */
-}
-
-.single-item:hover .single-item-content{
-  background-color: rgba(0,0,0,0.7);
- opacity: 1;  
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -o-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);  
-} 
-
-.single-item-content::after {
-  content: "";
-  height: 85%;
-  left: 18px;
-  top: 15px;
-  width: 90%;
-  position: absolute;
-  z-index: -1;
-}
-
-.view-icon{
-  color: #fff;
-  font-size: 30px;  
-}
-
-
-/*--------------------*/
-/* BLOG PAGE */
-/*--------------------*/
+/*------------------------*/
+/* BLOG PAGE - WHO WE ARE */
+/*------------------------*/
 
 
 #blog-archive {
@@ -1739,58 +1448,208 @@ img{
 
 
 /*--------------------*/
-/* ERROR PAGE */
+/* DEVICE DETAIL TAB  */
+/*--------------------*/
+
+main {
+  min-width: 320px;
+  max-width: 800px;
+  padding: 50px;
+  margin: 0 auto;
+  background: transparent;
+}
+
+
+section {
+  display: none;
+  border-top: 1px solid #ddd;
+}
+
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+label:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+label[for*='1']:before {
+  content: '\f10b';
+}
+
+label[for*='2']:before {
+  content: '\f013';
+}
+
+label:hover {
+  color: #004990;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid #004990;
+  border-bottom: 1px solid #fff;
+}
+
+#tabpresentation:checked ~ #presentation {
+	padding: 20px 0 0;
+	display: block;
+}
+#tabspecification:checked ~ #specification{
+	padding: 20px 0 0;
+	display: block;
+}
+
+@media screen and (max-width: 650px) {
+  label {
+    font-size: 0;
+  }
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  label {
+    padding: 15px;
+  }
+}
+
+
+/*--------------------*/
+/* PRICING TABLE */
 /*--------------------*/
 
 
-#error{
-  display: inline;
-  float: left;
-  padding: 70px 0;
-  width: 100%;
+#pricing-table{
+	background-color: #f8f8f8;
+	display: inline;
+	float: left;
+	padding: 70px 0;
+	width: 100%;
 }
 
-.errror-page-area{
-  display: inline;
-  float: left;
-  text-align: center;
-  width: 100%;
+.pricing-table-content{
+	display: inline;
+	float: left;
+	margin-top: 50px;
+	width: 100%;
 }
 
-.error-title {
-  border-radius: 50%;
-  color: #fff;
-  display: inline-block;
-  font-size: 75px;
-  margin-top: 0px;
-  margin-bottom: 10px;
-  padding: 40px 50px;
-}
-
-.error-content{
+.single-table-price {
+  background-color: #fff;
   display: inline;
   float: left;
   text-align: center;
   width: 100%;
+  border: 1px solid #ccc;
 }
 
-.error-content span {
-  font-size: 35px;
-  font-weight: 300;
+.price-header {
+  background-color: #383838;
+  color: #ccc;
+  display: inline;
+  float: left;
+  width: 100%;
 }
 
-.error-content p {
-  font-size: 18px;
-  margin-top: 10px;
-}
-
-.error-content .error-home {  
+.price-title {  
   color: #fff;
   display: inline-block;
-  margin-top: 60px;
-  padding: 10px 15px;
+  font-size: 15px;
+  margin-top: -5px;
+  min-width: 150px;
+  padding: 5px 15px;
+  text-transform: uppercase;
 }
 
+.price {
+  color: #fff;
+  display: inline;
+  float: left;
+  font-size: 40px;
+  font-weight: normal;
+  padding: 15px;
+  width: 100%;
+}
+
+.price .price-up{
+	font-size: 60%;
+}
+
+.price .price-down{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.price-article{
+	display: inline;
+	float: left;
+	padding: 0 20px;
+	width: 100%;
+}
+
+.price-article ul li {
+  border-bottom: 1px solid #ccc;
+  color: #555;
+  padding: 15px 0;
+}
+
+.price-article ul li:last-child{
+	border: none;
+}
+
+.price-footer{
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.purchase-btn {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin-bottom: -10px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.purchase-btn:hover,
+.purchase-btn:focus{
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+}
+
+.featured-price .price-title{
+	background-color: #383838;
+}
+
+.featured-price .purchase-btn{
+	color: #fff;
+}
 
 
 /*======================///////////////
@@ -2150,207 +2009,4 @@ img{
   .blog-archive-left .blog-news-img {
     height: 220px;
   }
-}
-
-/*--------------------*/
-/* tab PAGE */
-/*--------------------*/
-
-main {
-  min-width: 320px;
-  max-width: 800px;
-  padding: 50px;
-  margin: 0 auto;
-  background: transparent;
-}
-
-
-section {
-  display: none;
-  border-top: 1px solid #ddd;
-}
-
-
-input {
-  display: none;
-}
-
-label {
-  display: inline-block;
-  margin: 0 0 -1px;
-  padding: 15px 25px;
-  font-weight: 600;
-  text-align: center;
-  color: #bbb;
-  border: 1px solid transparent;
-}
-
-label:before {
-  font-family: fontawesome;
-  font-weight: normal;
-  margin-right: 10px;
-}
-
-label[for*='1']:before {
-  content: '\f10b';
-}
-
-label[for*='2']:before {
-  content: '\f013';
-}
-
-label:hover {
-  color: #004990;
-  cursor: pointer;
-}
-
-input:checked + label {
-  color: #555;
-  border: 1px solid #ddd;
-  border-top: 2px solid #004990;
-  border-bottom: 1px solid #fff;
-}
-
-#tabpresentation:checked ~ #presentation {
-	padding: 20px 0 0;
-	display: block;
-}
-#tabspecification:checked ~ #specification{
-	padding: 20px 0 0;
-	display: block;
-}
-
-@media screen and (max-width: 650px) {
-  label {
-    font-size: 0;
-  }
-  label:before {
-    margin: 0;
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  label {
-    padding: 15px;
-  }
-}
-
-/*--------------------*/
-/* PRICING TABLE */
-/*--------------------*/
-
-
-#pricing-table{
-	background-color: #f8f8f8;
-	display: inline;
-	float: left;
-	padding: 70px 0;
-	width: 100%;
-}
-
-.pricing-table-content{
-	display: inline;
-	float: left;
-	margin-top: 50px;
-	width: 100%;
-}
-
-.single-table-price {
-  background-color: #fff;
-  display: inline;
-  float: left;
-  text-align: center;
-  width: 100%;
-  border: 1px solid #ccc;
-}
-
-.price-header {
-  background-color: #383838;
-  color: #ccc;
-  display: inline;
-  float: left;
-  width: 100%;
-}
-
-.price-title {  
-  color: #fff;
-  display: inline-block;
-  font-size: 15px;
-  margin-top: -5px;
-  min-width: 150px;
-  padding: 5px 15px;
-  text-transform: uppercase;
-}
-
-.price {
-  color: #fff;
-  display: inline;
-  float: left;
-  font-size: 40px;
-  font-weight: normal;
-  padding: 15px;
-  width: 100%;
-}
-
-.price .price-up{
-	font-size: 60%;
-}
-
-.price .price-down{
-	font-size: 14px;
-	text-transform: uppercase;
-}
-
-.price-article{
-	display: inline;
-	float: left;
-	padding: 0 20px;
-	width: 100%;
-}
-
-.price-article ul li {
-  border-bottom: 1px solid #ccc;
-  color: #555;
-  padding: 15px 0;
-}
-
-.price-article ul li:last-child{
-	border: none;
-}
-
-.price-footer{
-	display: inline;
-	float: left;
-	width: 100%;
-}
-
-.purchase-btn {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  display: inline-block;
-  margin-bottom: -10px;
-  margin-top: 20px;
-  padding: 10px 20px;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 15px;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.purchase-btn:hover,
-.purchase-btn:focus{
-	text-decoration: none;
-	outline: none;
-	color: #fff;
-}
-
-.featured-price .price-title{
-	background-color: #383838;
-}
-
-.featured-price .purchase-btn{
-	color: #fff;
 }

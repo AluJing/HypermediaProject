@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 </head>
 <body>
 <?php
@@ -14,13 +15,14 @@ if( $_REQUEST["categoria"] ) {
 if (!$con) {
     die('Could not connect: ' . mysqli_error($con));
 }
+
+
 //interrogazione db
 mysqli_select_db($con,"my_jingalmera");
-$sql="SELECT * FROM `Smartphone`";
+$sql="SELECT * FROM `Device` WHERE Categoria LIKE 'smartphones'";
 $result = mysqli_query($con,$sql);
 
 //stampo risultati
-echo "";
 while($row = mysqli_fetch_array($result)) {
 
     echo "<div class='col-md-3 col-sm-6 col-xs-12'>
@@ -33,15 +35,14 @@ while($row = mysqli_fetch_array($result)) {
                    <span>" . $row['Prezzo'] . "</span>
                 </div>
                 <div class='offer-link'>
-                   <a href='#'>Dettagli</a>
+                   <a href='smartphone-detail.html?id=" . $row['ID'] . "'>Dettagli</a>
                 </div>
             </div>
           </div>";
 }
 mysqli_close($con);
-
 }
 
 ?>
 </body>
-</html>
+</html>

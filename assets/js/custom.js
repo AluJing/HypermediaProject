@@ -7,37 +7,21 @@
 
 	Custom JS
 	
-	1. SEARCH BOX SLIDE
-	2. HOVER DROPDOWN MENU
-	3. BOOTSTRAP ACCORDION
-	4. SKILL PROGRESS BAR
-	5. MIXIT SLIDER
-	6. FANCYBOX
-	7. MAIN SLIDER (SLICK SLIDER)
-	8. LOGIN MODAL WINDOW
-	9. COUNTER
-	10. TESTIMONIAL SLIDER (SLICK SLIDER)
-	11. CLIENTS BRAND SLIDER (SLICK SLIDER) 
-	12. SCROLL TOP BUTTON
-	13. PRELOADER 
-	14. WOW ANIMATION	
+	1. HOVER DROPDOWN MENU
+	2. BOOTSTRAP ACCORDION
+	3. MAIN SLIDER (SLICK SLIDER)
+	4. TESTIMONIAL SLIDER (SLICK SLIDER)
+	5. SCROLL TOP BUTTON
+	6. PRELOADER 
+	7. WOW ANIMATION	
 	
 **/
 
 jQuery(function($){
 
-	/* ----------------------------------------------------------- */
-	/*  1. SEARCH BOX SLIDE
-	/* ----------------------------------------------------------- */ 
-
-	$('#search-icon').click(function(e){
-		e.preventDefault();
-     	$('.header-top').slideToggle(500);     
-  	});
 	
-			
 	/* ----------------------------------------------------------- */
-	/*  2. HOVER DROPDOWN MENU
+	/*  1. HOVER DROPDOWN MENU
 	/* ----------------------------------------------------------- */ 
 	
 	// for hover dropdown menu
@@ -48,7 +32,7 @@ jQuery(function($){
     });
 
   	/* ----------------------------------------------------------- */
-	/*  3. BOOTSTRAP ACCORDION
+	/*  2. BOOTSTRAP ACCORDION
 	/* ----------------------------------------------------------- */ 
 	
 	$('#accordion .panel-collapse').on('shown.bs.collapse', function () {
@@ -61,31 +45,9 @@ jQuery(function($){
 	$(this).prev().find(".fa").removeClass("fa-minus-square").addClass("fa-plus-square");
 	});	
 
-	/* ----------------------------------------------------------- */
-	/*  4. SKILL PROGRESS BAR
-	/* ----------------------------------------------------------- */ 
-
-	$('.progress .progress-bar').progressbar({
-		display_text: 'center', percent_format: function(p) {return p + ' %';}});
 
 	/* ----------------------------------------------------------- */
-	/*  5. MIXIT SLIDER
-	/* ----------------------------------------------------------- */  	
-
-	jQuery(function(){
-	    $('#mixit-container').mixItUp();
-	});
-		
-	/* ----------------------------------------------------------- */
-	/*  6. FANCYBOX 
-	/* ----------------------------------------------------------- */
-
-	jQuery(document).ready(function() {
-		$(".fancybox").fancybox();
-	});	 
-
-	/* ----------------------------------------------------------- */
-	/*  7. MAIN SLIDER (SLICK SLIDER)
+	/*  3. MAIN SLIDER (SLICK SLIDER)
 	/* ----------------------------------------------------------- */
 
 	jQuery('.main-slider').slick({
@@ -98,34 +60,9 @@ jQuery(function($){
 		cssEase: 'linear'
 	});
 
-	/* ----------------------------------------------------------- */
-	/*  8. LOGIN MODAL WINDOW
-	/* ----------------------------------------------------------- */
-
-	$("#signup-btn").on('click', function(e){
-		$('#signup-content').show();
-		$('#login-content').hide();
-		e.preventDefault();		
-	});
-
-	$("#login-btn").on('click', function(e){
-		$('#login-content').show();
-		$('#signup-content').hide();
-		e.preventDefault();
-				
-	});
 
 	/* ----------------------------------------------------------- */
-	/*  9. COUNTER
-	/* ----------------------------------------------------------- */ 
-
-	  jQuery('.counter').counterUp({
-            delay: 10,
-            time: 1000
-        });
-
-	/* ----------------------------------------------------------- */
-	/*  10. TESTIMONIAL SLIDER (SLICK SLIDER)
+	/*  4. TESTIMONIAL SLIDER (SLICK SLIDER)
 	/* ----------------------------------------------------------- */   
 
 	jQuery('.testimonial-slider').slick({
@@ -138,48 +75,7 @@ jQuery(function($){
 
 
 	/* ----------------------------------------------------------- */
-	/*  11. CLIENTS BRAND SLIDER (SLICK SLIDER)
-	/* ----------------------------------------------------------- */   
-
-	$('.clients-brand-slide').slick({
-	  dots: false,
-	  infinite: false,
-	  speed: 300,
-	  slidesToShow: 4,
-	  slidesToScroll: 4,
-	  autoplay: true,	
-	  responsive: [
-	    {
-	      breakpoint: 1024,
-	      settings: {
-	        slidesToShow: 3,
-	        slidesToScroll: 3,
-	        infinite: true,
-	        dots: true
-	      }
-	    },
-	    {
-	      breakpoint: 600,
-	      settings: {
-	        slidesToShow: 2,
-	        slidesToScroll: 2
-	      }
-	    },
-	    {
-	      breakpoint: 480,
-	      settings: {
-	        slidesToShow: 1,
-	        slidesToScroll: 1
-	      }
-	    }
-	    // You can unslick at a given breakpoint now by adding:
-	    // settings: "unslick"
-	    // instead of a settings object
-	  ]
-	});
-
-	/* ----------------------------------------------------------- */
-	/*  12. SCROLL TOP BUTTON
+	/*  5. SCROLL TOP BUTTON
 	/* ----------------------------------------------------------- */
 
 	//Check to see if the window is top if not then display button
@@ -200,7 +96,7 @@ jQuery(function($){
 	});
 
 	/* ----------------------------------------------------------- */
-	/*  13. PRELOADER 
+	/*  6. PRELOADER 
 	/* ----------------------------------------------------------- */ 
 	
 	jQuery(window).load(function() { // makes sure the whole site is loaded
@@ -211,7 +107,7 @@ jQuery(function($){
 
    
 	/* ----------------------------------------------------------- */
-	/*  14. WOW ANIMATION
+	/*  7. WOW ANIMATION
 	/* ----------------------------------------------------------- */ 
 
 	wow = new WOW(
