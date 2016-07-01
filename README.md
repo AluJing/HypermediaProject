@@ -18,9 +18,19 @@ Author URI: http://www.markups.io/
 
 -------------------------------------------------------------
 
-Frameworks usato:
+Frameworks e javascript usati:
 
-Bootstrap framework: http://getbootstrap.com/
+
+Bootstrap: http://getbootstrap.com/
+
+
+Jquery: https://jquery.com/
+
+
+WOW animation: http://mynameismatthieu.com/WOW/
+
+
+Slick slider: http://kenwheeler.github.io/slick/
 
 -------------------------------------------------------------
 
